@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Other Courses</title>
+
+
+<style>
+	
+
+
+
+body{
+		background: #000000;
+		color: grey;
+		font-size: 18px;
+	}
+
+
+
+
+
+.nav{
+	background: #000000;
+	text-align: center;
+
+}
+
+.nav ul{
+	display: inline-flex;
+	list-style-type: none;
+
+}
+
+
+.nav ul li{
+	width: 150px;
+	margin: 5px;
+	padding: 5px;
+}
+
+.nav ul li a{
+	color: grey;
+	text-decoration: none;	
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.active, .nav ul li:hover{
+	background: #fffffa;
+	border-radius: 2px;
+
+}
+
+.sub-menu1{
+	display: none;
+
+}
+
+.nav ul li:hover .sub-menu1{
+	display: block;
+	position: absolute;
+	background: #c4c2c2;
+	margin-top: 5px;
+	margin-left: -5px;
+	border-radius: 3px;
+}
+
+.nav ul li:hover .sub-menu1 ul{
+	display: block;
+	margin: 2px;
+
+}
+
+.nav ul li:hover .sub-menu1 ul li{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 0px solid #000000;
+	text-align: left;
+	border-radius: 7px;
+}
+
+
+.sub-menu2{
+	display: none;
+}
+
+.hover-me:hover .sub-menu2{
+	position: absolute;
+	display: block;
+	margin-top: -40px;
+	margin-left: 140px;
+	background: #c4c2c2;
+	opacity: .7;
+	border-radius: 7px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.heading{
+ 	position: absolute;
+ 	top: 240px;
+ 	left: 850px;
+
+
+}
+
+
+.table3{
+
+		background-size: 100%;
+		position: absolute;
+		top: 370px;
+		left: 450px;
+		background-color: #000000;
+		box-shadow: 1px 2px 20px white;
+	}	
+
+.courses{
+		letter-spacing: 1px;
+}
+
+
+.institution{
+	text-align: center;
+	text-decoration-line: none;
+	color: grey;
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+
+.duration{
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.subject{
+	text-align: center;
+	font-size: 18px;
+	letter-spacing: 1px;
+
+}
+
+.institution ul{
+	text-align: left;
+}
+
+.page-link{
+	position:absolute;
+	bottom: -0px;
+	right: 100px;
+}
+
+.page-link a{
+	text-decoration-line: none;
+	color: grey;
+
+}
+
+
+</style>
+
+
+
+
+
+</head>
+
+
+<body>
+
+
+<div class="nav">
+		
+			<ul>
+				<li class=""><a href="main-page.html">Home</a></li>
+				<li><a href="">About Me</a>
+					<div class="sub-menu1">
+						<ul>
+							<li><a href="professionaldetails.html">Professional Background</a></li>
+							
+
+							<li class="hover-me"><a href="">Educational Background</a>
+								<div class="sub-menu2">
+										<ul>
+											<li><a href="educational-background.html" target="new">Academic Degree's</a></li>
+								        	<li><a href="other-courses.html">Diploma & Other</a></li>
+										</ul>
+
+							                     
+							</li>
+
+												
+						</ul>
+
+					</div>
+					
+				</li>
+				
+
+
+
+				<li><a href="photography.html" target="new">Photography</a></li>
+
+
+
+
+				<li><a href="contact.html">Contact</a></li>
+
+
+				<li><a href="mdmukitkaisar.docx" download="Md Mukit Kaisar Resume">Resume</a></li>
+				
+			</ul>
+
+
+	</div>
+
+
+
+<!--
+	----------------------------------------------------------------------------------------------------------------
+-->
+
+
+
+<table border="1" class="table3">
+	
+	<tr>
+		<th class="subject">Subject</th>
+		<th class="institution">Institution</th>
+		<th class="duration">Duration</th>
+		<th class="courses">Completed Courses</th>	
+	</tr>
+
+
+
+<tbody>
+
+	<tr>
+		<td class="subject">Web Development</td>
+		<td class="institution">
+
+			<ul>Udemy</ul>
+			<ul>freeCodeCamp</ul>
+			<ul>Youtube Channels</ul>
+			<ul>Internet</ul>
+
+		</td>
+
+		<td class="duration">2019 February-Present</td>
+		
+		<td class="courses">
+			<ul>• HTML 5</ul>
+			<ul>• CSS 3</ul>
+			<ul>• JavaScript</ul>
+			
+		</td>
+
+	</tr>
+
+
+
+
+
+
+	<tr>
+		<td class="subject">Photography</td>
+		<td class="institution">Dhaka University</td>
+		<td class="duration">2011 September - 2012 August</td>
+		<td class="courses">
+			<ul>• Fundamental of Photography</ul>
+			<ul>• Advanced Photography</ul>
+			<ul>• Advanced Lighting</ul>
+			<ul>• SLR and DSLR operation and mechanism</ul>
+			<ul>• Adobe Photoshop CS4, CS5</ul>
+			<ul>• Adobe Light Room CS4, CS5</ul>
+
+		</td>
+
+	</tr>
+
+
+</tbody>
+
+
+</table>
+
+
+<!--
+	----------------------------------------------------------------------------------------------------------------
+-->
+
+<div class="heading">
+	<h1>Other Courses</h1>
+</div>
+
+
+<div class="page-link">
+	<a href="main-page.html">Back to Home</a>
+</div>
+
+
+
+</body>
+</html>

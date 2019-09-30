@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Photography</title>
+
+<style>
+
+body{
+	background: #000000;
+}	
+
+
+
+
+
+
+.head{
+	text-align: center;
+	margin-top: 30px;
+	font-size: 15px;
+	font-family: Roboto;
+	color: #ba1111;
+	position: absolute;
+	top: 5px;
+	left: 10px;
+}
+
+
+.gallery{
+	height: 80%;
+	width: 100%;
+	display: flex;
+	margin: 12% auto 0;
+	box-sizing: border-box;
+}
+
+
+.image-box{
+	margin: 0 1%;
+	flex-grow: 1;
+	flex-basis: 0;
+	transition: 1s;
+
+}
+
+
+.image-box img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: .5s;
+}
+
+.image-box:hover{
+	flex-basis: 50%;
+}
+
+.active{
+	flex-basis: 50%;
+}
+
+.gallery:hover .active{
+	flex-basis: 0;
+}
+
+.image-box: nth-child(1):hover{
+	flex-basis: 50%;
+
+}
+
+
+
+
+.logo {
+	top: 20px;
+	left: 850px;
+	position: absolute;
+}
+
+
+.page-link{
+	position:absolute;
+	bottom: -0px;
+	right: 100px;
+}
+
+.page-link a{
+	text-decoration-line: none;
+	color: grey;
+
+</style>
+
+
+
+
+</head>
+
+
+
+
+<body>
+
+
+
+
+
+	<!--
+	------------------------------------------------
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+<h1 class="head">Welcome To</h1>
+-->
+<div class="gallery">
+	
+
+	<div class="image-box ">
+		<img src="002.jpg">
+
+	</div>
+	
+
+	<div class="image-box">
+		<img src="003.jpg">
+
+	</div>
+	
+
+	<div class="image-box">
+		<img src="004.jpg">
+
+	</div>
+	
+	
+	
+
+	<div class="image-box">
+		<img src="001.jpg">
+
+	</div>
+	
+	<div class="image-box active">
+		<img src="005.jpg">
+
+	</div>
+
+
+	<div class="image-box">
+		<img src="011.jpg">
+
+	</div>
+	
+
+	<div class="image-box">
+		<img src="008.jpg">
+
+	</div>
+	
+
+	<div class="image-box">
+		<img src="009.jpg">
+
+	</div>
+	
+
+	<div class="image-box">
+		<img src="010.jpg">
+
+	</div>
+	
+
+
+</div>
+
+
+<div class="logo">
+	<a href="https://www.facebook.com/pg/RefatPhotography/photos/?tab=albums&ref=page_internal" target="new"><img src="logo.JPG" width="300"></a>
+</div>
+
+
+<div class="page-link">
+	<a href="main-page.html">Back to Home</a>
+</div>
+
+
+
+</body>
+</html>

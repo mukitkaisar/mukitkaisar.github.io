@@ -1,0 +1,123 @@
+@font-face {
+	font-family: 'Sansation Light';
+	src: url(fonts/Sansation-Light.ttf);
+}
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url(me4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;	
+	font-family: sans-serif;
+
+}
+
+
+.nav{
+	background: #000000;
+	text-align: center;
+
+}
+
+.nav ul{
+	display: inline-flex;
+	list-style-type: none;
+
+}
+
+
+.nav ul li{
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+}
+
+.nav ul li a{
+	color: grey;
+	text-decoration: none;	
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.active, .nav ul li:hover{
+	background: #fffffa;
+	border-radius: 2px;
+
+}
+
+.sub-menu1{
+	display: none;
+
+}
+
+.nav ul li:hover .sub-menu1{
+	display: block;
+	position: absolute;
+	background: #c4c2c2;
+	margin-top: 15px;
+	margin-left: -15px;
+	border-radius: 3px;
+}
+
+.nav ul li:hover .sub-menu1 ul{
+	display: block;
+	margin: 2px;
+
+}
+
+.nav ul li:hover .sub-menu1 ul li{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 0px solid #000000;
+	text-align: left;
+	border-radius: 7px;
+}
+
+
+.sub-menu2{
+	display: none;
+}
+
+.hover-me:hover .sub-menu2{
+	position: absolute;
+	display: block;
+	margin-top: -40px;
+	margin-left: 140px;
+	background: #c4c2c2;
+	opacity: .7;
+	border-radius: 7px;
+
+
+}
+
+
+.description p{
+	position: absolute;
+	width: 170px;
+	text-align: left;
+	color: grey;
+	margin-left: 472px;
+	margin-top: 235px;
+	font-family: sans-serif;
+
+}
+
+
+.head{
+	position: absolute;
+	color: grey;
+	text-align: left;
+	width: 400px;
+	font-size: 26px;
+	margin-top: 390px;
+	margin-left:75px;
+	letter-spacing: 2px;
+	font-family: Roboto;
+
+}

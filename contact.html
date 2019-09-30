@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+
+
+<style>
+	
+@font-face {
+	font-family: 'Sansation Light';
+	src: url(fonts/Sansation-Light.ttf);
+}
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url(batman.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;	
+	font-family: sans-serif;
+
+}
+
+
+.nav{
+	background: #000000;
+	text-align: center;
+
+}
+
+.nav ul{
+	display: inline-flex;
+	list-style-type: none;
+
+}
+
+
+.nav ul li{
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+}
+
+.nav ul li a{
+	color: grey;
+	text-decoration: none;	
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.active, .nav ul li:hover{
+	background: #fffffa;
+	border-radius: 2px;
+
+}
+
+.sub-menu1{
+	display: none;
+
+}
+
+.nav ul li:hover .sub-menu1{
+	display: block;
+	position: absolute;
+	background: #c4c2c2;
+	margin-top: 15px;
+	margin-left: -15px;
+	border-radius: 3px;
+}
+
+.nav ul li:hover .sub-menu1 ul{
+	display: block;
+	margin: 2px;
+
+}
+
+.nav ul li:hover .sub-menu1 ul li{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 0px solid #000000;
+	text-align: left;
+	border-radius: 7px;
+}
+
+
+.sub-menu2{
+	display: none;
+}
+
+.hover-me:hover .sub-menu2{
+	position: absolute;
+	display: block;
+	margin-top: -40px;
+	margin-left: 140px;
+	background: #c4c2c2;
+	opacity: .7;
+	border-radius: 7px;
+
+
+}
+
+
+
+.page-link a{
+	position:absolute;
+	bottom: 70px;
+	right: 100px; 
+	color: #c4910e;
+	text-decoration-line: none;
+	
+	}
+
+
+
+.contact-me{
+	font-style: italic;
+	font-family: all;
+	font-size: 35px;
+	position: absolute;
+	top: 400px;
+	left:350px;
+	color: grey;
+}
+
+.contact-info{
+	position: absolute;
+	top: 200px;
+	left: 1500px;
+	color: grey;
+	
+	
+}
+
+.contact-info li{
+list-style-type: none;
+font-size: 26px;
+
+}
+
+
+
+
+</style>
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+
+
+
+<body>
+
+
+
+
+	<div class="nav">
+		
+			<ul>
+				<li class=""><a href="main-page.html">Home</a></li>
+				<li><a href="">About Me</a>
+					<div class="sub-menu1">
+						<ul>
+							<li><a href="professionaldetails.html">Professional Background</a></li>
+							
+
+							<li class="hover-me"><a href="">Educational Background</a>
+								<div class="sub-menu2">
+										<ul>
+											<li><a href="educational-background.html" target="new">Academic Degree's</a></li>
+								        	<li><a href="other-courses.html">Diploma & Other</a></li>
+										</ul>
+
+							                     
+							</li>
+
+												
+						</ul>
+
+					</div>
+					
+				</li>
+				
+
+
+				<li><a href="photography.html" target="new">Photography</a></li>
+
+
+				<li><a href="contact.html">Contact</a></li>
+
+
+				<li><a href="mdmukitkaisar.docx" download="Md Mukit Kaisar Resume">Resume</a></li>
+				
+			</ul>
+
+
+	</div>
+
+
+
+
+
+<h1 class="contact-me">
+	Feel Free To Contact Me
+</h1>
+
+
+
+
+
+<div class="contact-info">
+	<ul>
+		<li><img width="90" src="phone.png"> +1 (431)-998-7226</li>
+		<li><img width="90" src="email1.png">   mukitkaisar@gmail.com</li>
+		<li><img width="90" src="home-icon.png">202-525 Saint Mary Ave, R3C 3X3, Winnipeg, Manitoba, Canada</li>
+	</ul>
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

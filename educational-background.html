@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Educational Background</title>
+
+
+
+<style>
+	
+body{
+		background: #000000;
+		color: grey;
+		font-size: 18px;
+	}
+
+
+
+
+.nav{
+	background: #000000;
+	text-align: center;
+
+}
+
+.nav ul{
+	display: inline-flex;
+	list-style-type: none;
+
+}
+
+
+.nav ul li{
+	width: 150px;
+	margin: 5px;
+	padding: 5px;
+}
+
+.nav ul li a{
+	color: grey;
+	text-decoration: none;	
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.active, .nav ul li:hover{
+	background: #fffffa;
+	border-radius: 2px;
+
+}
+
+.sub-menu1{
+	display: none;
+
+}
+
+.nav ul li:hover .sub-menu1{
+	display: block;
+	position: absolute;
+	background: #c4c2c2;
+	margin-top: 5px;
+	margin-left: -5px;
+	border-radius: 3px;
+}
+
+.nav ul li:hover .sub-menu1 ul{
+	display: block;
+	margin: 2px;
+
+}
+
+.nav ul li:hover .sub-menu1 ul li{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 0px solid #000000;
+	text-align: left;
+	border-radius: 7px;
+}
+
+
+.sub-menu2{
+	display: none;
+}
+
+.hover-me:hover .sub-menu2{
+	position: absolute;
+	display: block;
+	margin-top: -40px;
+	margin-left: 140px;
+	background: #c4c2c2;
+	opacity: .7;
+	border-radius: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+.heading{
+ 	position: absolute;
+ 	top: 240px;
+ 	left: 800px;
+
+
+}	
+
+
+.table2{
+
+		background-size: 100%;
+		position: absolute;
+		top: 370px;
+		left: 250px;
+		background-color: #000000;
+		box-shadow: 1px 2px 20px white;
+	}
+
+
+.subject{
+	text-align: center;
+	font-size: 18px;
+	letter-spacing: 1px;
+
+}
+
+.institution a{
+	text-align: center;
+	text-decoration-line: none;
+	color: grey;
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+
+.cgpa{
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.duration{
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.major{
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.courses{
+		letter-spacing: 1px;
+}
+
+.page-link a{
+	text-decoration-line: none;
+	color: grey;
+
+}
+
+.page-link{
+	position:absolute;
+	bottom: -1920px;
+	right: 100px;
+}
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+
+
+
+<div class="nav">
+		
+			<ul>
+				<li class=""><a href="main-page.html">Home</a></li>
+				<li><a href="">About Me</a>
+					<div class="sub-menu1">
+						<ul>
+							<li><a href="professionaldetails.html">Professional Background</a></li>
+							
+
+							<li class="hover-me"><a href="">Educational Background</a>
+								<div class="sub-menu2">
+										<ul>
+											<li><a href="educational-background.html" target="new">Academic Degree's</a></li>
+								        	<li><a href="other-courses.html">Diploma & Other</a></li>
+										</ul>
+
+							                     
+							</li>
+
+												
+						</ul>
+
+					</div>
+					
+				</li>
+				
+
+
+				<li><a href="photography.html" target="new">Photography</a></li>
+
+
+				<li><a href="contact.html">Contact</a></li>
+
+
+				<li><a href="mdmukitkaisar.docx" download="Md Mukit Kaisar Resume">Resume</a></li>
+				
+			</ul>
+
+	</div>
+
+
+
+
+<!--
+	----------------------------------------------------------------------------------------------------------------
+-->
+
+
+<table border="1" class="table2">
+	<tr>
+		<th class="subject">Subject</th>
+		<th class="institution">Institution</th>
+		<th class="duration">Duration</th>
+		<th class="cgpa">CGPA</th>
+		<th class="courses">Completed Courses</th>
+		<th class="major">Major</th>
+	</tr>	
+
+
+<tbody>
+	<tr>
+		<td class="subject">Master of Business Administration (MBA)</td>
+		<td class="institution"><a href="http://www.easternuni.edu.bd" target="new">Eastern University</a></td>
+		<td class="duration">Fall 2013 to Fall 2014 </td>
+		<td class="cgpa">3.52 out of 4</td>
+		<td class="courses">
+			<ul>• Computer Application & e-Business</ul>
+			<ul>• Organizational Behavior</ul>
+			<ul>• Business Communication</ul>
+			<ul>• Business Law & Ethics</ul>
+			<ul>• Research Methodology in Business</ul>
+			<ul>• Financial Management</ul>
+			<ul>• Human Resource Managenemt</ul>
+			<ul>• Strategic Management</ul>
+			<ul>• Marketing Management</ul>
+			<ul>• Advertising & Promotion Management</ul>
+			<ul>• Consumer Behavior</ul>
+			<ul>• Principles of Marketing</ul>
+			<ul>• Service Marketing</ul>
+			<ul>• Business Mathematics</ul>
+			<ul>• Busuness Statistics</ul>
+			<ul>• Micro Economics</ul>
+			<ul>• Macro Economics</ul>
+			<ul>• Princiles of Accounting</ul>
+			<ul>• Principles of Finance</ul>
+			<ul>• Principles of Management</ul>
+		<td class="major">Marketing</td>
+
+		</td>
+	</tr>
+
+
+	<tr>
+		<td class="subject">Bachelor of Business Administration (BBA)</td>
+		<td class="institution"><a href="http://www.nu.ac.bd" target="new">National University</a></td>
+		<td class="duration">Summer 2008 to Winter 2012 </td>
+		<td class="cgpa">3.42 out of 4</td>
+		<td class="courses">
+			<ul>• Computer Programming</ul>
+			<ul>• Introduction to Business</ul>
+			<ul>• Principles of Accounting</ul>
+			<ul>• Introduction to Computer</ul>
+			<ul>• Business Mathematics</ul>
+			<ul>• English</ul>
+			<ul>• Business Communication</ul>
+			<ul>• Intermediate Accounting</ul>
+			<ul>• Principles of Management</ul>
+			<ul>• Micro Economics</ul>
+			<ul>• Business Statistics – I</ul>
+			<ul>• Principles of Finance</ul>
+			<ul>• Principles of Marketing</ul>
+			<ul>• Organizational Behavior</ul>
+			<ul>• Macro Economics</ul>
+			<ul>• Business Statistics – II</ul>
+			<ul>• Insurance and Risk Management</ul>
+			<ul>• Cost Accounting</ul>
+			<ul>• Business Law</ul>
+			<ul>• Theory and Practice of Banking</ul>
+			<ul>• Business and Society</ul>
+			<ul>• Auditing</ul>
+			<ul>• Taxation in Bangladesh</ul>
+			<ul>• Business Law- II/ Industrial Law</ul>
+			<ul>• Bangladesh Studies</ul>
+			<ul>• Financial Management</ul>
+			<ul>• Entrepreneurship Development</ul>
+			<ul>• International Business</ul>
+			<ul>• Marketing Management</ul>
+			<ul>• Production Management</ul>
+			<ul>• Human Resources Management</ul>
+			<ul>• Management Accounting</ul>
+			<ul>• Project Management</ul>
+			<ul>• Strategic Management</ul>
+			<ul>• Management Information Systems</ul>
+			<ul>• Consumer Behavior</ul>
+			<ul>• Marketing Research</ul>
+			<ul>• Marketing Promotion</ul>
+			<ul>• Brand Marketing</ul>
+			<ul>• Viva Voice and Project Paper Defense</ul>
+
+
+		<td class="major">Marketing</td>
+
+		</td>
+
+
+    </tr>
+
+
+</tbody>
+
+
+</table>
+
+
+<!--
+	----------------------------------------------------------------------------------------------------------------
+-->
+
+
+
+<div class="page-link">
+	<a href="main-page.html">Back to Home</a>
+</div>
+
+<div class="heading">
+	<h1>Educational Background</h1>
+</div>
+
+
+
+
+</body>
+</html>
